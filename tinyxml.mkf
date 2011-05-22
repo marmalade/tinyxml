@@ -1,0 +1,23 @@
+includepaths
+{
+	"modified"
+}
+
+upstream
+{
+	url="http://source.ideaworkslabs.com/upstream/tinyxml_2_5_3.tar.gz"
+	local='modified'
+}
+
+files
+{
+	tinyxml.mkf
+
+	("modified")
+	tinystr.cpp
+	tinystr.h
+	tinyxml.cpp
+	tinyxml.h
+	tinyxmlerror.cpp
+	tinyxmlparser.cpp
+}
