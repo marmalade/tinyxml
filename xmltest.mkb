@@ -1,21 +1,22 @@
 #!/usr/bin/env mkb
-
 package tinyxml
 
 subproject tinyxml
 
 options
 {
-	s3e-data-dir="modified"
+   s3e-data-dir="upstream"
+   app-icf="app.icf"
 }
+
 
 assets
 {
-	("modified")
-	utf8test.xml
+    ("upstream")
+    utf8test.xml
 }
 
 files
 {
-	"modified/xmltest.cpp"
+    "upstream/xmltest.cpp"
 }
