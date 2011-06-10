@@ -29,8 +29,6 @@ distribution.
 #include <iostream>
 #endif
 
-//TESTING
-
 #include "tinyxml.h"
 
 
