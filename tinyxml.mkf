@@ -5,7 +5,7 @@ includepaths
 
 upstream
 {
-	url="http://source.ideaworkslabs.com/upstream/tinyxml_2_5_3.tar.gz"
+	url="http://source.madewithmarmalade.com/upstream/tinyxml_2_5_3.tar.gz"
 }
 
 files
