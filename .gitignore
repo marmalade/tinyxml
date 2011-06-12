@@ -3,3 +3,5 @@ build_*
 run_*
 *.tar.gz
 upstream
+tinyxml_*.mdev
+tinyxml_*.msrc

@@ -1,22 +1,23 @@
 includepaths
 {
-	"upstream"
+    "upstream"
 }
 
 upstream
 {
-	url="http://source.ideaworkslabs.com/upstream/tinyxml_2_5_3.tar.gz"
+    url="http://source.ideaworkslabs.com/upstream/tinyxml_2_5_3.tar.gz"
+    checkin=git
 }
 
 files
 {
-	tinyxml.mkf
+    tinyxml.mkf
 
-	("upstream")
-	tinystr.cpp
-	tinystr.h
-	tinyxml.cpp
-	tinyxml.h
-	tinyxmlerror.cpp
-	tinyxmlparser.cpp
+    ("upstream")
+    tinystr.cpp
+    tinystr.h
+    tinyxml.cpp
+    tinyxml.h
+    tinyxmlerror.cpp
+    tinyxmlparser.cpp
 }
