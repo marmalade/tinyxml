@@ -57,7 +57,10 @@ distribution.
 // new safe versions. This probably doesn't fully address the problem,
 // but it gets closer. There are too many compilers for me to fully
 // test. If you get compilation troubles, undefine TIXML_SAFE
+
+#ifndef __S3E__
 #define TIXML_SAFE
+#endif
 
 #ifdef TIXML_SAFE
 	#if defined(_MSC_VER) && (_MSC_VER >= 1400 )
@@ -80,6 +83,8 @@ distribution.
 	#else
 		#define TIXML_SSCANF   sscanf
 	#endif
+#else
+	#define TIXML_SSCANF sscanf 
 #endif	
 
 class TiXmlDocument;
