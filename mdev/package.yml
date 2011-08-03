@@ -1,6 +1,4 @@
 Package: tinyxml
-Version: 2.5.3
-Revision: 4
 Maintainer: Airplay Package Team <packages@ideaworkslabs.com>
 Mkbs: tinyxml.mkf
 Libraries: tinyxml

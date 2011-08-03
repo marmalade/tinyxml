@@ -1,0 +1,6 @@
+tinyxml (2.5.3-5)
+
+  * Add changelog
+  * package.yml: Remove Revision and Version
+
+ -- Sam Clegg <sam@marmalademail.com>  Wed, 03 Aug 2011 00:40:46 +0000
